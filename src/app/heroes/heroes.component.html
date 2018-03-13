@@ -1,0 +1,13 @@
+
+<h2>Heroes</h2>
+<ul class="heroes">
+  <!-- NgFor é uma diretiva de repetição -->
+  <!-- (click) é um event binding -->
+  <li *ngFor="let hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span><a>{{hero.name}}</a>
+  </li>
+</ul>
+
+<!-- [hero] é uma propriedade de ligação(binding) -->
+<!-- ele só vai mostrar o component filho quando o heroi é selecionado-->
+<!-- <app-hero-detail [hero]="selectedHero"></app-hero-detail> -->

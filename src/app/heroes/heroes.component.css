@@ -1,0 +1,30 @@
+li{
+    text-decoration: none;
+    list-style-type: none;
+    background: #22bcc2;
+    color: #fff;
+    height: 1.5em;
+    vertical-align: middle;
+}
+span{
+    padding: 0 1rem;
+    background-color: #494949;
+    height: 100%;
+    width: 3rem;
+    display:inline-block;
+}
+ul{
+    border: 2px solid #494949;
+    margin: 0;
+    padding: 0;
+}
+a{
+    padding: 0 15px;
+}
+a:hover{
+    cursor: pointer;
+}
+.selected{
+    background:#114e94;
+    color: #fff;
+}

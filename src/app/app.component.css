@@ -1,0 +1,16 @@
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    padding: 0.25rem 0.50rem;
+    background-color: #2d7794;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, .4); */
+    border-bottom: 3px solid #256179;
+    transition: all .4s ease-in-out;
+}
+a:active{
+    border-bottom: 1px solid;
+    transform:translate(0px, 5px);
+    -ms-transform:translate(0px, 5px);
+}
